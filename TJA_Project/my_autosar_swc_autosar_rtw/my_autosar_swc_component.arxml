@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Auto generated XML Component Description for model my_autosar_swc
+Model version                : 1.1
+Simulink Coder version       : Simulink Coder 25.1 (R2025a) 21-Nov-2024
+XML source code generated on : Tue Oct 28 12:54:22 2025
+Model Checksum               : 3223569451 3597461913 1107442788 2981643847
+-->
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00052.xsd">
+    <AR-PACKAGES>
+        <AR-PACKAGE>
+            <SHORT-NAME>Components</SHORT-NAME>
+            <ELEMENTS>
+                <APPLICATION-SW-COMPONENT-TYPE UUID="257779e1-0a6e-5829-345c-40c2fb73c31f">
+                    <SHORT-NAME>my_autosar_swc</SHORT-NAME>
+                    <INTERNAL-BEHAVIORS>
+                        <SWC-INTERNAL-BEHAVIOR UUID="f1672c63-2717-5ca2-5e21-09c583f3203b">
+                            <SHORT-NAME>my_autosar_swc_IB</SHORT-NAME>
+                            <EVENTS>
+                                <TIMING-EVENT UUID="d1b01cce-019b-5625-0b99-b8e28acc995d">
+                                    <SHORT-NAME>Event_my_autosar_swc_Step</SHORT-NAME>
+                                    <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/Components/my_autosar_swc/my_autosar_swc_IB/my_autosar_swc_Step</START-ON-EVENT-REF>
+                                    <PERIOD>0.2</PERIOD>
+                                </TIMING-EVENT>
+                            </EVENTS>
+                            <HANDLE-TERMINATION-AND-RESTART>NO-SUPPORT</HANDLE-TERMINATION-AND-RESTART>
+                            <RUNNABLES>
+                                <RUNNABLE-ENTITY UUID="35c3a118-9485-5d6f-34f3-38c85234bd77">
+                                    <SHORT-NAME>my_autosar_swc_Init</SHORT-NAME>
+                                    <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
+                                    <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
+                                    <SYMBOL>my_autosar_swc_Init</SYMBOL>
+                                </RUNNABLE-ENTITY>
+                                <RUNNABLE-ENTITY UUID="6135936c-4a86-5081-ca60-760f895cecf6">
+                                    <SHORT-NAME>my_autosar_swc_Step</SHORT-NAME>
+                                    <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
+                                    <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
+                                    <SYMBOL>my_autosar_swc_Step</SYMBOL>
+                                </RUNNABLE-ENTITY>
+                            </RUNNABLES>
+                            <SUPPORTS-MULTIPLE-INSTANTIATION>false</SUPPORTS-MULTIPLE-INSTANTIATION>
+                        </SWC-INTERNAL-BEHAVIOR>
+                    </INTERNAL-BEHAVIORS>
+                </APPLICATION-SW-COMPONENT-TYPE>
+            </ELEMENTS>
+        </AR-PACKAGE>
+    </AR-PACKAGES>
+</AUTOSAR>

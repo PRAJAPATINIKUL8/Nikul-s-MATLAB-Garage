@@ -1,0 +1,2 @@
+#/Users/nikul/Documents/MATLAB/TJA_Project/my_autosar_swc_autosar_rtw/stub/Rte_my_autosar_swc.h
+#this file contains the list of RTE methods that the profiling must filter out
