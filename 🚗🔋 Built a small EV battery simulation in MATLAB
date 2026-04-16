@@ -1,0 +1,18 @@
+🚗🔋 Built a small EV battery simulation in MATLAB
+
+Recently, I tried to understand how battery charge changes over time in an electric vehicle. So I created a simple model to simulate **State of Charge (SOC)** using different numerical methods.
+
+I compared:
+
+* Euler method
+* Heun (Improved Euler)
+* RK4
+* RK45 (ode45 in MATLAB)
+
+It was interesting to see how accuracy improves from Euler → RK methods, especially when the current changes over time.
+
+This gave me a better understanding of how simulations are actually used in EV systems before real implementation.
+
+Still exploring more in this area — especially Simulink and real-world models.
+
+#MATLAB #ElectricVehicles #NumericalMethods #Engineering #Simulation
