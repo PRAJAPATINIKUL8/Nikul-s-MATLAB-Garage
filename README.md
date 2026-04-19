@@ -21,10 +21,5 @@ Notes:
 - Many files are binary (Simulink .slx, generated C, .mat files). Use Git LFS if you plan to track large binaries or add them selectively.
 - Remove or ignore build artifact folders like `slprj/` and `*_ert_rtw/` if you don't want to store generated code in the repo. Consider adding/updating `.gitignore` accordingly.
 
-If you'd like, I can:
-- add a simple `.gitignore` recommending ignoring build artifacts
-- create a GitHub release tag (I can create `v1.0.0` now)
-- open the repository in your browser
 
----
 Generated on: 2025-11-09
